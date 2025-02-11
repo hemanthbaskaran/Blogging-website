@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create Account</title>
+  <link rel="stylesheet" href="css/dashboard.css">
+  <script type="module" src="js/firebase.js"></script>
+</head>
+<body>
+  <div class="container">
+    <form class="create-account-form">
+      <h2>Create Account</h2>
+      <div class="form-group">
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" placeholder="Enter your username" required>
+      </div>
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required>
+        <img src="img/eye-close.png" onclick = "pass()" class="pass-icon" id="pass-icon">
+      </div>
+      <button id="submit" type="submit" class="btn">Create Account</button>
+      <div class="divider">OR</div>
+      <button id="google" type="button" class="google-btn">Sign In with Google</button>
+    </form>
+    <p class="login-link">
+      Have an account? <a href="login.html">Login here</a>
+    </p>
+  </div>
+</body>
+</html>
