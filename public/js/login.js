@@ -2,15 +2,8 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/10.11.1/fireba
 import { getFirestore } from "https://www.gstatic.com/firebasejs/10.11.1/firebase-firestore.js";
 import { getAuth, signInWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/10.11.1/firebase-auth.js";
 
-// Firebase configuration
-const firebaseConfig = {
-  apiKey: "AIzaSyAFIL8N-d5POTlzxZwg4C5xSJmU9KJujPY",
-  authDomain: "firestore-app-13292.firebaseapp.com",
-  projectId: "firestore-app-13292",
-  storageBucket: "firestore-app-13292.firebasestorage.app",
-  messagingSenderId: "265444500199",
-  appId: "1:265444500199:web:59af772fc030c4ba003842",
-};
+
+
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
